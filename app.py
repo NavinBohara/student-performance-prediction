@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Streamlit App Title
-st.title("📊 Student Performance Prediction with Multi-Task Learning")
+st.title("📊 EduPredict AI – Unlocking Student Potential with AI!")
 
 # Step 1: Upload CSV File
 st.sidebar.header("Upload Dataset")
