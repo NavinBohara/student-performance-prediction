@@ -24,7 +24,7 @@ if not st.session_state.logged_in:
         if check_login(username, password):
             st.session_state.logged_in = True
             st.success("✅ Login successful!")
-            st.experimental_rerun()
+            st.rerun()  # ✅ Use this instead of experimental_rerun
         else:
             st.error("❌ Incorrect username or password.")
     st.stop()
