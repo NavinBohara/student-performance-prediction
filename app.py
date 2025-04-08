@@ -7,7 +7,31 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
-# Streamlit App Title
+
+
+# --- LOGIN SYSTEM START ---
+def check_login(username, password):
+    return username == "admin" and password == "password"
+
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if not st.session_state.logged_in:
+    st.title("🔐 Login Required")
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+    if st.button("Login"):
+        if check_login(username, password):
+            st.session_state.logged_in = True
+            st.success("✅ Login successful!")
+            st.experimental_rerun()
+        else:
+            st.error("❌ Incorrect username or password.")
+    st.stop()
+# --- LOGIN SYSTEM END ---
+
+
+# ---- Streamlit App Starts After Login ----
 st.title("📊 EduPredict AI – Unlocking Student Potential with AI!")
 
 # Step 1: Upload CSV File
