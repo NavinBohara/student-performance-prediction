@@ -1,6 +1,3 @@
-Absolutely! Here's your `README.md` file in a clean, copy-paste ready markdown format:
-
-````markdown
 # EduPredict AI – Unlocking Student Potential with AI
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-orange) ![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep_Learning-red) ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -39,9 +36,9 @@ The system also features a simple login authentication, data preprocessing, visu
 
 ```bash
 pip install streamlit pandas numpy tensorflow scikit-learn seaborn matplotlib
-````
 
----
+
+
 
 ## Usage
 
