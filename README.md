@@ -128,7 +128,7 @@ EduPredict-AI/
 ## Author
 
 **Your Name**
-Email: [your.email@example.com](mailto:your.email@example.com)
+Email: navinbohara5@gmail.com
 GitHub: [yourgithub](https://github.com/yourgithub)
 
 ---
