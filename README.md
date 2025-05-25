@@ -135,7 +135,10 @@ GitHub: https://github.com/NavinBohara
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this software with proper attribution.  
+See the [LICENSE](LICENSE) file for full license details.
+
 
 ---
 
