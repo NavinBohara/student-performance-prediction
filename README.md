@@ -151,9 +151,4 @@ See the [LICENSE](LICENSE) file for full license details.
 
 **Enjoy predicting and unlocking student potential with EduPredict AI! 🚀**
 
-```
 
----
-
-Just replace **Your Name**, email, and GitHub link with your details, and you’re good to go! Need help with anything else?
-```
