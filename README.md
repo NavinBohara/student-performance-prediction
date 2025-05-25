@@ -129,7 +129,7 @@ EduPredict-AI/
 
 **Your Name**
 Email: navinbohara5@gmail.com
-GitHub: [yourgithub](https://github.com/yourgithub)
+GitHub: https://github.com/NavinBohara
 
 ---
 
